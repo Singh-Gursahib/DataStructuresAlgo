@@ -55,7 +55,7 @@ public class LL{
         list.addFirst("a");
         list.addFirst("is");
         list.addLast("SmartBoy");
-        list.addFirst("Jimil");
+        list.addFirst("Kevin");
         list.printMyList();
     }
 }
