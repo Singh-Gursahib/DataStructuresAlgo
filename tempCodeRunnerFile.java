@@ -1,1 +1,0 @@
-firstNode.next
