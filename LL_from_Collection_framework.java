@@ -15,6 +15,25 @@ public class LL_from_Collection_framework {
 
         //print the list
         System.out.println(list);
+
+        //get size of the list
+        System.out.println(list.size());
+
+        //iterating over the list
+        for(int i = 0; i < list.size(); i++){
+            System.out.print(list.get(i) + " -> ");
+        }
+        System.out.println("null");
+
+        //How to remove elements from the list
+        list.removeFirst();
+        list.removeLast();
+        System.out.println(list);
+
+        //remove from specific index
+        list.remove(1);
+        System.out.println(list);
     }
+
 
 }
