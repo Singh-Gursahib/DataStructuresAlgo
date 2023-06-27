@@ -159,6 +159,8 @@ public class LL_Class_from_scratch {
         list.addLast("is");
         list.addLast("my");
         list.addLast("list");
+        //This is my current list
+        list.printMyList();
         list.printMyList();
 
         // list.reverseMyList();
