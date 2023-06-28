@@ -166,6 +166,7 @@ public class LL_Class_from_scratch {
         // list.reverseMyList();
     
         list.head = list.reverseUsingRecursion(list.head);
+        list.head = list.reverseUsingRecursion(list.head);
         list.printMyList();
 
 
