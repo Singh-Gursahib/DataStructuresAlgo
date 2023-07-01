@@ -1,5 +1,4 @@
-import java.net.Socket;
-import java.util.List;
+
 
 // Purpose: To create a linked list class from scratch
 public class LL_Class_from_scratch {
