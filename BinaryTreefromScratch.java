@@ -1,8 +1,5 @@
 import java.util.*;
 
-import javax.xml.transform.Source;
-
-
 public class BinaryTreefromScratch {
     public static class Node {
         int data;
