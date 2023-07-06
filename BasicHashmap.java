@@ -24,7 +24,10 @@ public class BasicHashmap {
             System.out.println(e.getKey()+" -> "+e.getValue());
         }
         
+           //second option
+        for(String key : map.keySet()){
+            System.out.println(key+" -> "+map.get(key));
 
     }
    
-}
+}}
