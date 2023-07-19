@@ -24,7 +24,7 @@ public class BasicHashmapImplementation {
             this.N = 4;
             this.buckets = new LinkedList[N];
             for(int i = 0; i < N; i++){
-                this.buckets[i] = new LinkedList<>();
+                this.buckets[i] = new LinkedList<Node>();
             }
         }   
 
@@ -105,8 +105,7 @@ public class BasicHashmapImplementation {
         public V remove(K key){
             int bi = hashFunction(key);
             int di = findInBucket(bi, key); 
-
-
+            
             if(di == -1){
                 // key is not present
                 return null;

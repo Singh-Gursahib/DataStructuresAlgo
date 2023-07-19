@@ -189,7 +189,6 @@ public class BinaryTreefromScratch {
 
         System.out.println("The Diametr of this root node is: " + diamApproachOne(node));
         
-    
         System.out.println("The Diametr of this root node via second approach is: " + diamApproachTwo(node).dia);
 
     }
