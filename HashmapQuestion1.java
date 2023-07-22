@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class HashmapQuestions {
+public class HashmapQuestion1 {
+
     public static void majorElement(int nums[]){
         HashMap<Integer, Integer> map = new HashMap<>();
 
@@ -8,7 +9,7 @@ public class HashmapQuestions {
             if(map.containsKey(nums[i])){
                 map.put(nums[i], map.get(nums[i])+1);
             } else {
-                map.put(nums[i], 1);
+                map.put(nums[i],  1);
             }
         }
         for (int key : map.keySet()) {
