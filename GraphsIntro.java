@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Graphs1 {
+public class GraphsIntro {
     static class Edge {
         int src;
         int dest;
